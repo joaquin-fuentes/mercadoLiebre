@@ -1,2 +1,1 @@
-web: app.js
-web: ./src/app.js
+web: \mercadoLiebre\app.js
