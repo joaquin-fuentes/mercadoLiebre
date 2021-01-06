@@ -24,10 +24,11 @@ div.top-header{
 }
 
 header div.top-header p{
-    width: 100%;
+    width: 33%;
     text-align: center;
     margin-top: 10px;
 }
+.top-header {justify-content: center;}
 
 header{
     background-color: #EAC926;
@@ -35,11 +36,14 @@ header{
 
 header div.logo,
 header .form{
-    width: 50%;
+    width: 33%;
+    justify-content: center;
 }
+header p{ align-items: center;
+display: flex;}
 
 header div.logo{
-    padding: 10px;
+    padding: 2px;
 }
 header .form{
     display: flex;
@@ -50,8 +54,17 @@ header .form{
 header nav{
     font-size: 12px;
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ header nav ul {margin-top: 10px;
+    margin: 0px 40px;
+    display: flex;
 }
 
+.ofert li {margin: 0px 10px;}
+.log li {margin: 0px 10px;}
 header ul li{
     list-style-type: none;
 }
@@ -73,8 +86,12 @@ header .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
-    width: 10%;
+    width: 3%;
+    height: 18px;
+    margin: 5px;
 }
+.top-header {display: flex;}
+
 
 div.burger-menu{
     text-align: center;
@@ -96,6 +113,7 @@ div.offers{
     display: flex;
     flex-wrap: wrap;
 }
+main section h4{color: #666;}
 
 .price{
     font-size: 18px;
@@ -192,6 +210,9 @@ article div.main-article{
     .discount{
         width: 50%;
     }
+  
+
+
 }
 
 @media (min-width: 769px){
@@ -199,3 +220,45 @@ article div.main-article{
         width: 22%;
     }
 }
+
+.register form{
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+}
+input , label {
+    margin: 5px;
+}
+
+.login  {
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+}
+
+.footer {width: 90%;
+height: 300px;
+display: flex;
+margin: 20px;
+margin-top: 80px;
+justify-content: space-between;}
+
+.footer div {
+    width: 33%;
+    height: 90%;
+    text-align: center;
+}
+
+footer section i {background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 25px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;}
+
+footer section i:hover {color: crimson;}
+
+.enviar:hover {background-color: #0022aa;}
+
